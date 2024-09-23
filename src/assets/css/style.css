@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+    --white: rgb(255, 255, 255);
+    --dark: #000000;
+    --light: rgb(182, 182, 182);
+    --killlight: rgb(223, 219, 219);
+    --fiolet: rgb(121, 25, 255);
+}
+
+.container {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.back-button {
+    background-color: var(--killlight);
+    padding-top: 60px;
+    border-bottom: 2px solid var(--dark);
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+
+.back-button img {
+    padding-right: 5px;
+}
+
+
+.header {
+    width: 100%;
+    position: fixed;
+}
+
+
+
+.btn-category {
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 50px auto;
+    justify-content: flex-start;
+    gap: 70px;
+    align-items: center;
+    background-color: var(--light);
+    border-bottom: 2px solid var(--dark);
+}
+
+
+
+.home {
+    text-align: center;
+    color: var(--dark);
+
+}
+
+
+
+.element-card {
+    text-decoration: none;
+    display: block;
+    color: var(--dark);
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border-bottom: 1.5px solid var(--dark);
+    border-top: 1.5px solid var(--dark);
+    border-left: 1.5px solid var(--dark);
+    border-right: 1.5px solid var(--dark);
+
+}
+
+
+.element-card__title {
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+
+.element-card__category {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.all-element-block {
+    margin-top: 7px;
+
+}
+
+
+
+.element-card {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border-bottom: 2px solid var(--dark);
+    border-top: 2px solid var(--dark);
+    border-left: 2px solid var(--dark);
+    border-right: 2px solid var(--dark);
+
+}
+
+.element-detail-block .element-card__title {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.mobile-block__header {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 19px;
+    background-color: var(--killlight);
+    border-bottom: 2px solid var(--dark);
+    padding-top: 60px;
+}
+
+.description {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.kolodka {
+    margin-left: 27px;
+}
+
+.element-detail-block .element-card__price {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 35px;
+    color: var(--fiolet);
+}
+
+.teg-button {
+    text-align: center;
+    margin-left: 115px;
+    font-size: 30px;
+    margin-bottom: 35px;
+    background-color: var(--killlight);
+    border-radius: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.back-button .container {
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+.back-button {
+    text-decoration: none;
+    display: block;
+}
+
+
+.mobile-block__header-success {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 19px;
+    background-color: var(--killlight);
+    border-bottom: 2px solid var(--dark);
+    padding-top: 60px;
+}
+
+.category-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.category-item {
+    text-decoration: none;
+    color: var(--dark);
+    cursor: pointer;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20px;
+    border: 3px solid var(--dark);
+    padding-left: 17px;
+    font-size: 20px; 
+    padding-bottom: 10px; 
+    transition: 0.3s ease-in-out;
+}
+
+.category-item:hover {
+    background-color: var(--killlight);
+}
+
+
+.category-item__img {
+    margin-left: 35px;
+    margin-top: 10px;
+
+}
+
+
+.category-item__title-tormoz {
+    margin-left: 20px;
+}
+
+.category-item__title-AKB {
+    margin-left: 40px;
+}
+
+
+.category-item__title-filter {
+    margin-left: 17px;
+}
+
+
+.category-item__title-wid {
+    margin-left: 16px;
+}
+
+.category-item__title-porh {
+    margin-left: 7px;
+}
